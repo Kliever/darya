@@ -139,6 +139,49 @@ body {
   line-height: 1.2;
 }
 
+.preload {
+  display: none;
+}
+
+.preload._active {
+  display: block;
+}
+
+.preload-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.preload__title {
+  text-align: center;
+  color: rgb(255, 0, 234);
+  background: rgb(43, 43, 43);
+  padding: 30px 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.preload__link {
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+.block {
+  display: none;
+}
+
+.block._active {
+  display: block;
+}
+
 .header {
   background: rgb(43, 43, 43);
   margin: 10px;
