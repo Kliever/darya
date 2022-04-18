@@ -140,11 +140,11 @@ body {
 }
 
 .preload {
-  display: none;
+  display: block;
 }
 
-.preload._active {
-  display: block;
+.preload._pas {
+  display: none;
 }
 
 .preload-inner {
@@ -175,11 +175,11 @@ body {
 }
 
 .block {
-  display: none;
+  display: block;
 }
 
 .block._active {
-  display: block;
+  display: none;
 }
 
 .header {
